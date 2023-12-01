@@ -160,6 +160,68 @@ various front-end technologies and the specified workflow.
   * Don't repeat yourself (DRY)
   * Keep it simple, stupid (KISS)
   * You aren't gonna need it (YAGNI)
+#### Design patterns: 
+In Python software development, several design patterns are commonly used to solve recurring design problems effectively. Here are some of the most commonly used design patterns:
+
+  * **Singleton Pattern**: 
+    Ensures that a class has only one instance and provides a global point of access to that instance.
+
+  * **Factory Method Pattern**: 
+    Defines an interface for creating an object but lets subclasses alter the type of objects that will be created.
+
+  * **Abstract Factory Pattern**: 
+    Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+  * **Builder Pattern**: 
+    Separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
+
+  * **Prototype Pattern**: 
+    Allows creating new objects by copying an existing object, known as the prototype, rather than creating them from scratch.
+
+  * **Adapter Pattern**: 
+    Allows the interface of an existing class to be used as another interface, making it compatible with client code.
+
+  * **Decorator Pattern**: 
+    Attaches additional responsibilities to an object dynamically, providing a flexible way to extend functionality.
+
+  * **Proxy Pattern**: 
+    Provides a surrogate or placeholder for another object to control access to it.
+
+  * **Observer Pattern**: 
+    Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
+  * **Strategy Pattern**: 
+    Defines a family of algorithms, encapsulates each one, and makes them interchangeable. It allows the algorithm to vary independently from clients that use it.
+
+  * **Command Pattern**: 
+    Encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations.
+
+  * **Chain of Responsibility Pattern**: 
+    Passes a request along a chain of handlers, where each handler decides whether to process the request or pass it to the next handler in the chain.
+
+  * **State Pattern**: 
+    Allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
+
+  * **Template Method Pattern**: 
+    Defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
+
+  * **Composite Pattern**: 
+    Composes objects into tree structures to represent part-whole hierarchies. It allows clients to treat individual objects and compositions of objects uniformly.
+
+  * **Iterator Pattern**: 
+    Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
+  * **Visitor Pattern**: 
+    Represents an operation to be performed on elements of an object structure. It lets you define a new operation without changing the classes of the elements on which it operates.
+
+  * **Memento Pattern**: 
+    Captures and externalizes an object's internal state so that the object can be restored to this state later.
+
+  * **Bridge Pattern**: 
+    Separates an object’s abstraction from its implementation so that the two can vary independently.
+
+  * **Composite Pattern**: 
+    Composes objects into tree structures to represent part-whole hierarchies. It allows clients to treat individual objects and compositions of objects uniformly.
 
 #### Programming Paradigms:
   * Imperative
@@ -211,10 +273,10 @@ various front-end technologies and the specified workflow.
     * Taiga
 #### Learn your IDE 
   * IDEs
-    * PyCharm
-    * VS Code
-    * Vim
-    * JupyterLab
+    * PyCharm (get the student license for the PRO version, highly recommended)
+    * VS Code (free, construct your own flavor)
+    * Vim (free. For the tough folks)
+    * JupyterLab (free, webbased datascience oriented)
   * Plugins
   * Shortcuts/keybindings
   * Quick selections
@@ -229,6 +291,8 @@ various front-end technologies and the specified workflow.
   * Data manipulation
   * Importing and exporting data
   * Version control
+  * Regular expressions
+  * Multicursor edits 
   * 
 ## Protocols and Standards:
   * UUID (RFC 4122)
@@ -536,3 +600,54 @@ various front-end technologies and the specified workflow.
 * A web application with a database, API, and front-end
 * A web application with a database, API, front-end, and authentication
 * A web application with a database, API, front-end, authentication, and CI/CD
+
+## Devop patterns:
+
+1. **Configuration Management:**
+   - **Infrastructure as Code (IaC):** Representing infrastructure configurations as code to automate provisioning and configuration.
+   - **Orchestration Patterns:** Designing and managing complex, multi-step processes for system provisioning and configuration.
+
+2. **Monitoring and Logging:**
+   - **Centralized Logging:** Aggregating logs from various sources into a central repository for analysis.
+   - **Alerting Patterns:** Implementing strategies for timely notification of system issues.
+   - **Metrics Collection:** Gathering performance data from systems and applications for analysis.
+
+3. **Security and Access Control:**
+   - **Least Privilege Principle:** Providing the minimum level of access needed for users or processes.
+   - **Segregation of Duties:** Separating tasks and responsibilities to reduce security risks.
+   - **Security Patch Management:** Applying patches and updates to mitigate security vulnerabilities.
+
+4. **High Availability and Redundancy:**
+   - **Failover and Load Balancing:** Ensuring system availability by redirecting traffic in case of failures.
+   - **Clustering:** Combining multiple servers into a single logical unit to enhance reliability.
+   - **Backup and Disaster Recovery:** Creating and maintaining backups to recover from data loss or system failures.
+
+5. **Scaling and Performance Optimization:**
+   - **Horizontal Scaling:** Adding more servers to handle increased loads.
+   - **Vertical Scaling:** Increasing the resources (CPU, memory) of existing servers.
+   - **Caching Strategies:** Implementing caching to reduce database and network load.
+
+6. **Automation and Scripting:**
+   - **Scripting Patterns:** Developing scripts for common administrative tasks.
+   - **Job Scheduling:** Automating recurring tasks and processes.
+
+7. **Networking and Security Patterns:**
+   - **Firewall Rules and ACLs:** Defining rules and access control lists for network security.
+   - **VLAN Segmentation:** Separating network traffic logically to enhance security.
+   - **DMZ (Demilitarized Zone):** Creating a network segment isolated from the internal network for hosting public-facing services.
+
+8. **Backup and Restore Patterns:**
+   - **Incremental Backups:** Backing up only the changes made since the last backup to reduce storage requirements and backup times.
+   - **Bare-Metal Restore:** Recovering an entire system from backup, including the operating system and data.
+
+9. **User and Identity Management:**
+   - **Single Sign-On (SSO):** Allowing users to access multiple systems with a single set of credentials.
+   - **Role-Based Access Control (RBAC):** Assigning permissions to users based on their roles and responsibilities.
+
+10. **Patch Management:**
+    - **Scheduled Patching:** Applying system updates and patches during maintenance windows to minimize disruption.
+    - **Rollback Procedures:** Having plans to revert changes in case of issues caused by patches.
+
+11. **Disaster Recovery and Business Continuity Planning:**
+    - **Disaster Recovery Plan (DRP):** Developing strategies and procedures for restoring operations after a disaster.
+    - **Business Continuity Plan (BCP):** Ensuring the continuity of essential business functions during and after a disaster.
