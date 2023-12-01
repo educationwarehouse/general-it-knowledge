@@ -55,6 +55,8 @@ various front-end technologies and the specified workflow.
     * Using mermaidjs, plantuml, miro, ...  
 
 ## General IT concepts:
+
+* Filesystems (FAT, NTFS, ext4, BTRFS, ...)
 ### Linux and CLI
   * Multiuser systems 
   * Using the shell 
@@ -71,14 +73,15 @@ various front-end technologies and the specified workflow.
     * File compression
     * File encryption
     * File hashing
-    * /dev/null
+    * /dev (especially /dev/null and block devices)
     * /etc
     * /proc
     * /opt
     * /usr
+    * /bin (and /usr/bin, /sbin/usr/sbin, /usr/local/bin, /usr/local/sbin, ...)
     * /tmp 
-    * /boot 
-    * /home
+    * /boot
+    * /home (and ~)
   * Environment variables
   * The basics of applications
     * Installing and removing applications
@@ -87,7 +90,13 @@ various front-end technologies and the specified workflow.
     * Reading application documentation (man pages, help, --help, -h, ...)
     * Reading application configuration (config files, environment variables, ...)
     * Reading application logs (log files, journalctl, ...)
-    * 
+    * Memory requirements (RAM, swap, ...)
+    * CPU requirements (cores, threads, ...)
+    * Default streams (stdin, stdout, stderr)
+        * Stdin
+        * Stdout
+        * Stderr
+
   * Starting and stopping applications (./, &, fg, bg, jobs, kill, $PATH, ...)
   * Common ways to send arguments and options
   * Aliases and functions
@@ -112,6 +121,7 @@ various front-end technologies and the specified workflow.
     * Managing time (date, timedatectl, ...)
     * Managing history (history, histr, ...)
     * Managing remote systems (ssh, scp, sftp, rsync, ...)
+    * stdin, stdout, stderr rediction (>, >>, 2>, 2>>, 2>&1, tee, ...)
     * 
   * 
 ### Virtual machines: 
@@ -320,21 +330,30 @@ In Python software development, several design patterns are commonly used to sol
   * MQTT (RFC 9431)
 
 ## Hardware components and concepts:
-  * CPU
-  * RAM
-  * Storage
-  * Network
-  * Motherboard
-  * Power supply
-  * Graphics card
-  * Sound card
-  * Input devices (mouse, keyboard, touchpad, touchscreen, etc.)
-  * Output devices (monitor, printer, speakers, etc.)
-  * BIOS and UEFI
-  * Boot process
-  * Physical aspects of Virtualization and containerization
+
+* CPU (cores, threads, cache, clock speed, vendors, architectures, etc.)
+* Volatile RAM (types, clock speed, latency, etc.)
+* Motherboard (Bus, architecture)
+* Network (pre-boot execution environment (PXE), network boot, etc.)
+* Nonvolatile Storage
+    * Hard disk drive (HDD)
+    * Solid-state drive (SSD)
+    * Memory mapped drives (RAM disk)
+    * Network attached storage (NAS) & Storage area network (SAN)
+    * RAID
+    * Tapes for archival
+    * Online storage as a service (cloud storage)
+* Power supply (requirements, green computing, etc.)
+* Graphics card (GPU, internal and auxiliary)
+* Input devices (mouse, keyboard, touchpad, touchscreen, network, etc.)
+* Output devices (monitor, printer, speakers, network, etc.)
+* BIOS and UEFI, bootloaders, bootorder
+* Boot process (POST, MBR, GRUB, etc.)
+* Physical aspects of Virtualization and containerization (hypervisor, host, guest, bios extensions, etc.)
 
 ## Operating Systems:
+
+* Kernel vs OS
   * Linux
     * Ubuntu
     * Debian
@@ -346,6 +365,7 @@ In Python software development, several design patterns are commonly used to sol
   * Mobile
     * Android
     * iOS
+* and tons of others
 
 ## Networking:
   * OSI model
