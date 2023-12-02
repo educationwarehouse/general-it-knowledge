@@ -174,7 +174,7 @@ various front-end technologies and the specified workflow.
   * Technical debt
   * Code smells
  
-### Choose your guiding principles 
+#### Choose your guiding principles 
   * ... 
 
 #### Design patterns: 
