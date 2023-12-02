@@ -107,6 +107,7 @@ various front-end technologies and the specified workflow.
     * Python scripting
     * Using other languages
   * Using the shell for local system administration
+    * Filename Globbing (wildcards))  
     * Managing users and groups (adduser, usermod, userdel, groupadd, groupmod, groupdel, ...)
     * Managing permissions (chmod, chown, chgrp, umask, ...)
     * Managing services (systemctl, service, ...)
@@ -122,8 +123,7 @@ various front-end technologies and the specified workflow.
     * Managing history (history, histr, ...)
     * Managing remote systems (ssh, scp, sftp, rsync, ...)
     * stdin, stdout, stderr rediction (>, >>, 2>, 2>>, 2>&1, tee, ...)
-    * 
-  * 
+
 ### Virtual machines: 
   * Virtual machine software: 
     * VirtualBox
@@ -138,7 +138,7 @@ various front-end technologies and the specified workflow.
     * sharing files 
     * running services
     * connecting to services from your host 
-    * 
+
 ### Containerization:
   * Docker and Docker Compose
   * Podman
@@ -168,8 +168,10 @@ various front-end technologies and the specified workflow.
   * Inversion of control (IoC)
   * Dependency injection (DI)
   * Don't repeat yourself (DRY)
+  * Don't reinvent the wheel (DRW) / Don't repeat another (DRA)
   * Keep it simple, stupid (KISS)
   * You aren't gonna need it (YAGNI)
+
 #### Design patterns: 
 In Python software development, several design patterns are commonly used to solve recurring design problems effectively. Here are some of the most commonly used design patterns:
 
@@ -246,6 +248,7 @@ In Python software development, several design patterns are commonly used to sol
     * Distributed
   * Reactive
   * Data-driven
+
 #### Code best practices:
   * Code readability
   * Code reusability
@@ -254,6 +257,7 @@ In Python software development, several design patterns are commonly used to sol
   * Code smells 
   * Code refactoring
   * Code review
+
 #### Reproducible development
   * Version control
   * Virtual environments
@@ -264,6 +268,7 @@ In Python software development, several design patterns are commonly used to sol
   * Continuous delivery
   * Continuous deployment
   * DevOps 
+
 #### Different scales withing software architecture 
   * Monoliths
   * Services Oriented AArchitecture 
@@ -281,6 +286,7 @@ In Python software development, several design patterns are commonly used to sol
     * Github 
     * Gitlab
     * Taiga
+
 #### Learn your IDE 
   * IDEs
     * PyCharm (get the student license for the PRO version, highly recommended)
@@ -302,8 +308,81 @@ In Python software development, several design patterns are commonly used to sol
   * Importing and exporting data
   * Version control
   * Regular expressions
-  * Multicursor edits 
-  * 
+  * Multicursor edits
+
+#### Common memory structures:
+  * Stack
+  * Heap
+  * Queue
+  * Linked list
+  * Tree
+  * Graph
+  * Hash table
+  * Cache
+  * Buffer
+  * File
+  * Database
+  * Network
+  * Cloud
+
+#### Common data structures:
+  * Array
+  * List
+  * Tuple
+  * Set
+  * Dictionary and Hash-table
+  * String
+  * Binary and String
+  * Tree
+  * Graph
+  * Cache (LRU, MRU, LFU, MFU, RR, ...)
+  * Streams (stdin, stdout, stderr)
+  * File handles (file, socket, pipe, ...)
+
+#### Data persistence:
+  * Filesystem
+  * Database
+  * Cache
+  * Network
+    * Samba 
+    * NFS
+    * SSHFS
+    * FTP
+    * HTTP
+    * WebDAV
+    * IPFS
+    * BitTorrent
+    * 
+  * Cloud: 
+    * AWS
+    * Azure
+    * GCP
+    * Digital Ocean
+    * Linode
+    * Heroku
+    * Netlify
+
+#### Common inter process communication (IPC) methods:
+  * Sync and Async revisited
+  * Files
+  * The primitives: 
+    * Shared memory
+    * Semaphores
+    * Message queues
+    * Pipes
+    * Sockets
+    * Signals
+    * File locks
+    * RPC
+  * REST
+  * WebSockets
+  * WebRTC
+  * Message queues
+  * MQTT
+  * AMQP 
+  * Databases: postgres  
+  * Lib: Diskcache using sqlite
+
 ## Protocols and Standards:
   * UUID (RFC 4122)
   * URI, URL, and URN (RFC 3986)
@@ -328,6 +407,7 @@ In Python software development, several design patterns are commonly used to sol
     * Password hashing
     * Key derivation functions (KDF)
   * MQTT (RFC 9431)
+  * Posix regular expressions
 
 ## Hardware components and concepts:
 
@@ -544,82 +624,99 @@ In Python software development, several design patterns are commonly used to sol
 * Database management
 * Microservices
 * Cloud computing
+* Licensing and legal issues
+  * Open source
+  * Copyleft
+  * Creative Commons
+  * MIT
+  * GPL
+  * Apache
+  * BSD
+  * LGPL
+  * AGPL
+  * Proprietary
+  * EULA
+  * Terms of service
+  * Privacy policy
+* Security and privacy 
+  * GDPR
+  * HIPAA
 
 ## Back-End Development:
-* Static file hosting
-* Dynamic content
-* Creating applications 
-* URI revisited 
-* HTTP and the conversation between client and server
-* Using HTTP verbs, paths and headers: 
-  * Cookies and sessions, authentication and authorization
-  * CORS and CSRF
-* Web frameworks (web2py, py4web)
-* Database management (PostgreSQL, SQLite)
-* API development and REST
-* Version control (Git)
-* Secret management (.env, .gitignore, .dockerignore)
-* Using containers with SOA and microservices 
-* Reverse proxies and load balancers
-* Service discovery
-* Internal/virtual networking 
-* Docker compose vs docker swarm
-* Kubernetes and other headaches 
+  * Static file hosting
+  * Dynamic content
+  * Creating applications 
+  * URI revisited 
+  * HTTP and the conversation between client and server
+  * Using HTTP verbs, paths and headers: 
+    * Cookies and sessions, authentication and authorization
+    * CORS and CSRF
+  * Web frameworks (web2py, py4web)
+  * Database management (PostgreSQL, SQLite)
+  * API development and REST
+  * Version control (Git)
+  * Secret management (.env, .gitignore, .dockerignore)
+  * Using containers with SOA and microservices 
+  * Reverse proxies and load balancers
+  * Service discovery
+  * Internal/virtual networking 
+  * Docker compose vs docker swarm
+  * Kubernetes and other headaches 
 
 
 ## Front-End Development:
-* HTML, CSS, and JavaScript
-* Frameworks:
-  * React, Vue, Svelte, jQuery, Bootstrap
-  * Webpack and bundlers
-* State management
-* Single-page applications
-* Progressive web apps
-* Web components
-* OWASP top 10
- * Cross-site scripting (XSS)
- * Cross-site request forgery (CSRF)
- * SQL injection
- * Broken authentication
- * Sensitive data exposure
- * XML external entities (XXE)
- * Security misconfigurations
- * Insecure deserialization
- * Using components with known vulnerabilities
- * Insufficient logging and monitoring
+  * HTML, CSS, and JavaScript
+  * Frameworks:
+    * React, Vue, Svelte, jQuery, Bootstrap
+    * Webpack and bundlers
+  * State management
+  * Single-page applications
+  * Progressive web apps
+  * Web components
+  * OWASP top 10
+   * Cross-site scripting (XSS)
+   * Cross-site request forgery (CSRF)
+   * SQL injection
+   * Broken authentication
+   * Sensitive data exposure
+   * XML external entities (XXE)
+   * Security misconfigurations
+   * Insecure deserialization
+   * Using components with known vulnerabilities
+   * Insufficient logging and monitoring
 
 ## Database Management:
-* SQL and NoSQL
-* Different database systems: 
-  * PostgreSQL
-  * SQLite
-  * Redis
-* Database design
-* Database management, adminstration, and maintenance
-* Database security
-* Database optimization using indexes
-* Database migration and versioning
-* Database replication
-* Database backup and recovery
+  * SQL and NoSQL
+  * Different database systems: 
+    * PostgreSQL
+    * SQLite
+    * Redis
+  * Database design
+  * Database management, adminstration, and maintenance
+  * Database security
+  * Database optimization using indexes
+  * Database migration and versioning
+  * Database replication
+  * Database backup and recovery
 
 ## Decentralization:
-* Content delivery network (CDN)
-* NOSTR (Notes and other stuff through relays)
-* ActivityPub
-* Peer-to-peer networks
-* Blockchain
-* Distributed ledger technology
-* Distributed file systems
-* Distributed databases
-* Distributed computing
-* Distributed consensus
-  * Raft 
+  * Content delivery network (CDN)
+  * NOSTR (Notes and other stuff through relays)
+  * ActivityPub
+  * Peer-to-peer networks
+  * Blockchain
+  * Distributed ledger technology
+  * Distributed file systems
+  * Distributed databases
+  * Distributed computing
+  * Distributed consensus
+    * Raft 
 
 ## Projects:
-* A basic web application with a database and API
-* A web application with a database, API, and front-end
-* A web application with a database, API, front-end, and authentication
-* A web application with a database, API, front-end, authentication, and CI/CD
+  * A basic web application with a database and API
+  * A web application with a database, API, and front-end
+  * A web application with a database, API, front-end, and authentication
+  * A web application with a database, API, front-end, authentication, and CI/CD
 
 ## Devop patterns:
 
