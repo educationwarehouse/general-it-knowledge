@@ -492,100 +492,106 @@ In Python software development, several design patterns are commonly used to sol
     * Automating versioning and changelogs using [Semantic release](https://github.com/semantic-release/semantic-release)
 
 ## Monitoring and Logging:
-* Logging
-* Log/error levels
-* Log rotation
-* Syslog
-* Searching logs
-* Monitoring
-* Metrics
-* Alerting
-* Dashboards
+  * Logging
+  * Log/error levels
+  * Log rotation
+  * Syslog
+  * Searching logs
+  * Monitoring
+  * Metrics
+  * Alerting
+  * Dashboards
 
 
 ## Testing:
-* Test-driven development
-* Unit testing
-* Integration testing
-* End-to-end testing
-* Static code analysis
-* Test coverage
-* CI/CD
-
+  * Test-driven development
+  * Unit testing
+  * Integration testing
+  * End-to-end testing
+  * Static code analysis
+  * Test coverage
+  * CI/CD
+  
 ## DevOps:
-* Continuous integration
-* Continuous deployment
-* Combining development with operations
-* Infrastructure as code
-* Configuration management
-* Remote management using SSH, Fabric and EDWH
+  * Continuous integration
+  * Continuous deployment
+  * Combining development with operations
+  * Infrastructure as code
+  * Configuration management
+  * Remote management using SSH, Fabric and EDWH
 
 ## Text Editors and IDEs:
-* Vim
-* VS Code
-* PyCharm
-* JupyterLab
+  * Vim
+  * VS Code
+  * PyCharm
+  * JupyterLab
 
 ## Python Programming:
-* Python (3) syntax
-* Zen of Python
-* Python data types
-* Python data structures
-* Python control flow
-* Python functions
-* Python classes and objects
-* Python modules
-* Python packages
-* Python iterators
-* Python generators
-* Python decorators
-* Python context managers
-* Python magic methods
-* Python standard library
-* Python built-in functions
-* Python built-in modules
-* Python built-in types
-* Python built-in exceptions
-* Python virtual environments
-* Python packaging
-* Python documentation
-* Python logging
-* Python testing
-* Distributing Python packages
-* Static Typing
-  * Static type checking
-  * Type hints
-  * Mypy
-* Writing better code: 
-  * PEP 8 & PEP 257
+  * Python (3) syntax
+  * Zen of Python
+  * Python data types
+  * Python data structures
+  * Python control flow
+  * Python functions
+  * Python classes and objects
+  * Python modules
+  * Python packages
+  * Python iterators
+  * Python generators
+  * Python decorators
+  * Python context managers
+  * Python magic methods
+  * Python standard library
+  * Python built-in functions
+  * Python built-in modules
+  * Python built-in types
+  * Python built-in exceptions
+  * Python virtual environments
+  * Python packaging
   * Python documentation
-* Python logging
-* Python CLI applications
-* Python web applications
-* Python web frameworks
-  * WSGI
-  * ASGI
-  * Web2py
-  * Py4web
-  * Django
-  * Flask
-  * FastAPI
-  * Starlette
-  * Tornado
-  * Sanic
-* Python web servers: 
-  * Gunicorn
-  * Uvicorn
-  * Hypercorn
-  * Bjoern
-* Python asynchronous programming
-  * Asyncio
-  * Aiohttp
-  * Asyncpg
-  * Async SQLAlchemy
-* Python data science
-* NumPy
-* Pandas
+  * Python logging
+  * Python testing
+  * Distributing Python packages
+
+  * Static Typing
+    * Static type checking
+    * Type hints
+    * Mypy
+  * Writing better code: 
+    * PEP 8 & PEP 257
+    * Python documentation
+  * Python logging
+
+## Python for application development:
+  * Python CLI applications
+  * Python web applications
+  * Database connectivity and abstraction layers
+    * SQLAlchemy
+    * pydal 
+  * Python web frameworks
+    * WSGI
+    * ASGI
+    * Web2py
+    * Py4web
+    * Django
+    * Flask
+    * FastAPI
+    * Starlette
+    * Tornado
+    * Sanic
+  * Python web servers: 
+    * Gunicorn
+    * Uvicorn
+    * Hypercorn
+    * Bjoern
+  * Python asynchronous programming
+    * Asyncio
+    * Asyncpg
+    * Trio
+    * Anyio 
+  * Python data science
+    * NumPy
+    * Pandas
 
 
 ## Server Management:
