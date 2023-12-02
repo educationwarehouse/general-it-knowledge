@@ -1,0 +1,39 @@
+# Basic Linux
+
+- Opening the terminal
+  - non-graphical linuxes
+  - SSH 
+  - Terminal emulators
+- Navigating the file system
+  - the current working directory (pwd) 
+  - Absolute and relative paths
+  - Hidden files and directories (dotfiles)
+  - File permissions
+  - File ownership
+  - File types
+  - File attributes
+  - File sizes
+  - File timestamps
+  - File contents
+  - File compression
+  - File encryption
+  - File hashing
+  - /dev (especially /dev/null and block devices)
+  - /etc
+  - /proc
+  - /opt
+  - /usr
+  - /bin (and /usr/bin, /sbin/usr/sbin, /usr/local/bin, /usr/local/sbin, ...)
+  - /tmp
+  - /boot
+  - /home (and ~)
+- The basics of processes:  
+  - Default streams (stdin, stdout, stderr)
+    - Stdin
+    - Stdout
+    - Stderr
+  - Environment variables
+  - Executing applications from the path
+  - Executing applications from the current directory
+  - Exitcodes explained 
+

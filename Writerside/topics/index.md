@@ -1,8 +1,8 @@
-# Table of Contents
+# Everything and more. 
 These are the core concepts and skills that a student in IT should learn to develop back-end services in Python with 
 various front-end technologies and the specified workflow.
 
-## Learning and communication skills:
+## ✓ Learning and communication skills:
   * Learn how to learn
     * ask questions
     * how to search
@@ -37,9 +37,9 @@ various front-end technologies and the specified workflow.
     * Reference
     * Discussion
   * Learn how to read source code
-  * Learn to Query search engines and communities
+* Learn to Query search engines and communities
 
-## Thinking skills: 
+## ✓ Thinking skills: 
   * Problem solving
   * Critical thinking
   * Analytical thinking
@@ -57,7 +57,7 @@ various front-end technologies and the specified workflow.
 ## General IT concepts:
   * Filesystems (FAT, NTFS, ext4, BTRFS, ...)
 
-### Linux and CLI
+### ✓ Linux and CLI
   * Multiuser systems 
   * Using the shell 
   * Navigating the file system
@@ -124,7 +124,7 @@ various front-end technologies and the specified workflow.
     * Managing remote systems (ssh, scp, sftp, rsync, ...)
     * stdin, stdout, stderr rediction (>, >>, 2>, 2>>, 2>&1, tee, ...)
 
-### Virtual machines: 
+### ✓ Virtual machines: 
   * Virtual machine software: 
     * VirtualBox
     * Vagrant
@@ -139,12 +139,12 @@ various front-end technologies and the specified workflow.
     * running services
     * connecting to services from your host 
 
-### Containerization:
+### ✓ Containerization:
   * Docker and Docker Compose
   * Podman
   * Kubernetes
 
-## General Development concepts: 
+## ✓ General Development concepts: 
   * Software development principles: 
     * SOLID
       * Single responsibility principle (SRP)
@@ -177,7 +177,7 @@ various front-end technologies and the specified workflow.
 #### Choose your guiding principles 
   * ... 
 
-#### Design patterns: 
+#### ✓ Design patterns: 
 In Python software development, several design patterns are commonly used to solve recurring design problems effectively. Here are some of the most commonly used design patterns:
 
   * **Singleton Pattern**: Ensures that a class has only one instance and provides a global point of access to that instance.
@@ -199,7 +199,7 @@ In Python software development, several design patterns are commonly used to sol
   * **Visitor Pattern**: Represents an operation to be performed on elements of an object structure. It lets you define a new operation without changing the classes of the elements on which it operates.
   * **Memento Pattern**: Captures and externalizes an object's internal state so that the object can be restored to this state later.
   * **Bridge Pattern**: Separates an object’s abstraction from its implementation so that the two can vary independently.
-  * **Composite Pattern**: Composes objects into tree structures to represent part-whole hierarchies. It allows clients to treat individual objects and compositions of objects uniformly.
+  * **Composite Pattern**: Composes objects into tree structures to represent part-whole hierarchies. It allows clients to treat individual objects and compositions of objects uniformly.****
 
 #### Programming Paradigms:
   * Imperative

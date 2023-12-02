@@ -6,6 +6,56 @@
                  name="Help Instance"
                  start-page="index.md">
 
-    <toc-element topic="Default-topic.md"/>
     <toc-element topic="index.md"/>
+    <toc-element topic="Where-are-you-at.md"/>
+    <toc-element topic="ToC-by-level.md"/>
+    <toc-element topic="Basic.md">
+        <toc-element topic="Basic-Thinking.md"/>
+        <toc-element topic="Basic-Learning.md">
+        </toc-element>
+        <toc-element topic="Basic-Hardware.md"/>
+        <toc-element topic="Basic-Linux.md"/>
+        <toc-element topic="Basic-Networking.md"/>
+        <toc-element topic="Basic-Virtual-Machines.md"/>
+        <toc-element topic="Basic-Containerization.md"/>
+        <toc-element topic="Basic-Orchestration.md"/>
+        <toc-element topic="Basic-Development-Concepts.md"/>
+        <toc-element topic="Basic-Design-Patterns.md"/>
+    </toc-element>
+    <toc-element topic="Novice.md">
+        <toc-element topic="Novice-Thinking.md"/>
+        <toc-element topic="Novice-Learning.md"/>
+        <toc-element topic="Novice-Hardware.md"/>
+        <toc-element topic="Novice-Linux.md"/>
+        <toc-element topic="Novice-Virtual-Machines.md"/>
+        <toc-element topic="Novice-Orchestration.md"/>
+        <toc-element topic="Novice-Development-Concepts.md"/>
+        <toc-element topic="Novice-Design-Patterns.md"/>
+    </toc-element>
+    <toc-element topic="Intermediate.md">
+        <toc-element topic="Intermediate-Thinking.md"/>
+        <toc-element topic="Intermediate-Learning.md"/>
+        <toc-element topic="Intermediate-Hardware.md"/>
+        <toc-element topic="Intermediate-Linux.md"/>
+        <toc-element topic="Intermediate-Virtual-Machines.md"/>
+        <toc-element topic="Intermediate-Orchestration.md"/>
+        <toc-element topic="Intermediate-Development-Concepts.md"/>
+        <toc-element topic="Intermediate-Design-Patterns.md"/>
+    </toc-element>
+    <toc-element topic="Advanced.md">
+        <toc-element topic="Advanced-Thinking.md"/>
+        <toc-element topic="Advanced-Hardware.md"/>
+        <toc-element topic="Advanced-Linux.md"/>
+        <toc-element topic="Advanced-Orchestration.md"/>
+        <toc-element topic="Advanced-Development-Concepts.md"/>
+        <toc-element topic="Advanced-Design-Patterns.md"/>
+    </toc-element>
+    <toc-element topic="Expert.md">
+        <toc-element topic="Expert-Orchestration.md"/>
+        <toc-element topic="Expert-Linux.md"/>
+        <toc-element topic="Expert-Development-Concepts.md"/>
+        <toc-element topic="Expert-Design-Patterns.md"/>
+    </toc-element>
+    <toc-element topic="Default-topic.md">
+    </toc-element>
 </instance-profile>
