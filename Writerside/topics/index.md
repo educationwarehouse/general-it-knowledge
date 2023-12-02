@@ -47,7 +47,7 @@ various front-end technologies and the specified workflow.
   * Creative thinking
   * Systems thinking
   * Design thinking
-  * Decision making
+  * Decision-making
   * Start with the end in mind
   * Using whiteboards and brainstorming
   * Using mind maps
@@ -55,8 +55,9 @@ various front-end technologies and the specified workflow.
     * Using mermaidjs, plantuml, miro, ...  
 
 ## General IT concepts:
+  * Filesystems (FAT, NTFS, ext4, BTRFS, ...)
+  * 
 
-* Filesystems (FAT, NTFS, ext4, BTRFS, ...)
 ### Linux and CLI
   * Multiuser systems 
   * Using the shell 
@@ -383,7 +384,7 @@ In Python software development, several design patterns are commonly used to sol
   * Databases: postgres  
   * Lib: Diskcache using sqlite
 
-## Protocols and Standards:
+### Protocols and Standards:
   * UUID (RFC 4122)
   * URI, URL, and URN (RFC 3986)
   * IP (RFC 791)
@@ -410,42 +411,40 @@ In Python software development, several design patterns are commonly used to sol
   * Posix regular expressions
 
 ## Hardware components and concepts:
-
-* CPU (cores, threads, cache, clock speed, vendors, architectures, etc.)
-* Volatile RAM (types, clock speed, latency, etc.)
-* Motherboard (Bus, architecture)
-* Network (pre-boot execution environment (PXE), network boot, etc.)
-* Nonvolatile Storage
-    * Hard disk drive (HDD)
-    * Solid-state drive (SSD)
-    * Memory mapped drives (RAM disk)
-    * Network attached storage (NAS) & Storage area network (SAN)
-    * RAID
-    * Tapes for archival
-    * Online storage as a service (cloud storage)
-* Power supply (requirements, green computing, etc.)
-* Graphics card (GPU, internal and auxiliary)
-* Input devices (mouse, keyboard, touchpad, touchscreen, network, etc.)
-* Output devices (monitor, printer, speakers, network, etc.)
-* BIOS and UEFI, bootloaders, bootorder
-* Boot process (POST, MBR, GRUB, etc.)
-* Physical aspects of Virtualization and containerization (hypervisor, host, guest, bios extensions, etc.)
+  * CPU (cores, threads, cache, clock speed, vendors, architectures, etc.)
+  * Volatile RAM (types, clock speed, latency, etc.)
+  * Motherboard (Bus, architecture)
+  * Network (pre-boot execution environment (PXE), network boot, etc.)
+  * Nonvolatile Storage
+      * Hard disk drive (HDD)
+      * Solid-state drive (SSD)
+      * Memory mapped drives (RAM disk)
+      * Network attached storage (NAS) & Storage area network (SAN)
+      * RAID
+      * Tapes for archival
+      * Online storage as a service (cloud storage)
+  * Power supply (requirements, green computing, etc.)
+  * Graphics card (GPU, internal and auxiliary)
+  * Input devices (mouse, keyboard, touchpad, touchscreen, network, etc.)
+  * Output devices (monitor, printer, speakers, network, etc.)
+  * BIOS and UEFI, bootloaders, bootorder
+  * Boot process (POST, MBR, GRUB, etc.)
+  * Physical aspects of Virtualization and containerization (hypervisor, host, guest, bios extensions, etc.)
 
 ## Operating Systems:
-
-* Kernel vs OS
-  * Linux
-    * Ubuntu
-    * Debian
-    * CentOS
-    * Fedora
-    * Arch
-  * Windows
-  * Mac OS
-  * Mobile
-    * Android
-    * iOS
-* and tons of others
+  * Kernel vs OS
+    * Linux
+      * Ubuntu
+      * Debian
+      * CentOS
+      * Fedora
+      * Arch
+    * Windows
+    * Mac OS
+    * Mobile
+      * Android
+      * iOS
+  * and tons of others
 
 ## Networking:
   * OSI model
@@ -490,35 +489,6 @@ In Python software development, several design patterns are commonly used to sol
     * Commit messages
     * Change logs and release notes
     * Automating versioning and changelogs using [Semantic release](https://github.com/semantic-release/semantic-release)
-
-## Monitoring and Logging:
-  * Logging
-  * Log/error levels
-  * Log rotation
-  * Syslog
-  * Searching logs
-  * Monitoring
-  * Metrics
-  * Alerting
-  * Dashboards
-
-
-## Testing:
-  * Test-driven development
-  * Unit testing
-  * Integration testing
-  * End-to-end testing
-  * Static code analysis
-  * Test coverage
-  * CI/CD
-  
-## DevOps:
-  * Continuous integration
-  * Continuous deployment
-  * Combining development with operations
-  * Infrastructure as code
-  * Configuration management
-  * Remote management using SSH, Fabric and EDWH
 
 ## Text Editors and IDEs:
   * Vim
@@ -593,6 +563,34 @@ In Python software development, several design patterns are commonly used to sol
     * NumPy
     * Pandas
 
+## Monitoring and Logging:
+  * Logging
+  * Log/error levels
+  * Log rotation
+  * Syslog
+  * Searching logs
+  * Monitoring
+  * Metrics
+  * Alerting
+  * Dashboards
+
+
+## Testing:
+  * Test-driven development
+  * Unit testing
+  * Integration testing
+  * End-to-end testing
+  * Static code analysis
+  * Test coverage
+  * CI/CD
+  
+## DevOps:
+  * Continuous integration
+  * Continuous deployment
+  * Combining development with operations
+  * Infrastructure as code
+  * Configuration management
+  * Remote management using SSH, Fabric and EDWH
 
 ## Server Management:
 * Different linux flavors:
@@ -602,7 +600,7 @@ In Python software development, several design patterns are commonly used to sol
   * Fedora
   * Arch
 
-* Linux server management
+## Linux server management
   * File transfer
   * Process management
   * Cron jobs, services and schedulers:
@@ -612,8 +610,8 @@ In Python software development, several design patterns are commonly used to sol
     * Airflow
     * 
   * Working with services under Systemd
-  
-* Security and authentication
+
+## Security and authentication
   * SSH access: 
     * SSH keys
     * SSH agent
@@ -716,13 +714,7 @@ In Python software development, several design patterns are commonly used to sol
   * Distributed databases
   * Distributed computing
   * Distributed consensus
-    * Raft 
-
-## Projects:
-  * A basic web application with a database and API
-  * A web application with a database, API, and front-end
-  * A web application with a database, API, front-end, and authentication
-  * A web application with a database, API, front-end, authentication, and CI/CD
+    * Raft
 
 ## Devop patterns:
 
