@@ -61,3 +61,16 @@ If you are not sure, choose the lower level of experience (XP):
 12. **security** XP: basic, novice, intermediate, advanced, expert
 13. **learning** XP: basic, novice, intermediate, advanced, expert
 14. **thinking** XP: basic, novice, intermediate, advanced, expert
+
+This course is meant to be a guide to help you to become an expert in IT, or at least to help you to become skilled
+enough
+to be able to follow a course at a university or to be able to work in IT. The same goes for interns: a company will
+assume that you have the basic skills to be able to work in IT. This course will help you to get those skills.
+
+## Learning Path
+
+We have tried to create a learning path based on the following principles:
+
+* Sequential: Each higher-level subject should build upon the knowledge of the preceding levels.
+* Subject Continuity: Topics within each subject should be logically ordered and coherent.
+* Prerequisite Checks: Higher-level topics should not introduce concepts that are taught in detail at a later stage.

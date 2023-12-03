@@ -52,15 +52,8 @@ input_data = {
     }
 }
 
-
-
-
-
-
-
-
 # Load the XML file
-tree = ET.parse("Writerside/hi.tree")
+tree = ET.parse("Writerside/per_level.tree")
 root = tree.getroot()
 
 # Output directory

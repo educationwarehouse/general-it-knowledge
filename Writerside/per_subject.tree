@@ -1,118 +1,196 @@
 <instance-profile id="per_subject" name="Subject oriented" start-page="index.md">
-
+    <toc-element topic="Default-topic.md"/>
     <toc-element topic="index.md"/>
     <toc-element topic="Where-are-you-at.md"/>
     <toc-element topic="ToC-by-level.md"/>
+
+    <!-- Hardware -->
     <toc-element topic="Hardware.md">
-        <toc-element topic="Basic-Hardware.md"/>
-        <toc-element topic="Novice-Hardware.md"/>
-        <toc-element topic="Intermediate-Hardware.md"/>
-        <toc-element topic="Advanced-Hardware.md"/>
+        <toc-element level="Basic" topic="Basic-Hardware.md"/>
+        <toc-element level="Novice" topic="Novice-Hardware.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Hardware.md"/>
+        <toc-element level="Advanced" topic="Advanced-Hardware.md"/>
     </toc-element>
-    <toc-element topic="Basic.md">
-        <toc-element topic="Basic-Thinking.md"/>
-        <toc-element topic="Basic-Learning.md">
+
+    <!-- Thinking -->
+    <toc-element topic="Thinking.md">
+        <toc-element level="Basic" topic="Basic-Thinking.md"/>
+        <toc-element level="Novice" topic="Novice-Thinking.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Thinking.md"/>
+        <toc-element level="Advanced" topic="Advanced-Thinking.md"/>
+    </toc-element>
+
+    <!-- Learning -->
+    <toc-element topic="Learning.md">
+        <toc-element level="Basic" topic="Basic-Learning.md"/>
+        <toc-element level="Novice" topic="Novice-Learning.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Learning.md"/>
+    </toc-element>
+
+    <!-- Linux -->
+    <toc-element topic="Linux.md">
+        <toc-element level="Basic" topic="Basic-Linux.md"/>
+        <toc-element level="Novice" topic="Novice-Linux.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Linux.md"/>
+        <toc-element level="Advanced" topic="Advanced-Linux.md"/>
+        <toc-element level="Expert" topic="Expert-Linux.md"/>
+    </toc-element>
+
+    <!-- Virtual Machines -->
+    <toc-element topic="Virtual-Machines.md">
+        <toc-element level="Basic" topic="Basic-Virtual-Machines.md"/>
+        <toc-element level="Novice" topic="Novice-Virtual-Machines.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Virtual-Machines.md"/>
+    </toc-element>
+
+    <!-- Containerization -->
+    <toc-element topic="Containerization.md">
+        <toc-element level="Basic" topic="Basic-Containerization.md"/>
+    </toc-element>
+
+    <!-- Orchestration -->
+    <toc-element topic="Orchestration.md">
+        <toc-element level="Basic" topic="Basic-Orchestration.md"/>
+        <toc-element level="Novice" topic="Novice-Orchestration.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Orchestration.md"/>
+        <toc-element level="Advanced" topic="Advanced-Orchestration.md"/>
+        <toc-element level="Expert" topic="Expert-Orchestration.md"/>
+    </toc-element>
+
+    <!-- Development Concepts -->
+    <toc-element topic="Development-Concepts.md">
+        <toc-element level="Basic" topic="Basic-Development-Concepts.md"/>
+        <toc-element level="Novice" topic="Novice-Development-Concepts.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Development-Concepts.md"/>
+        <toc-element level="Advanced" topic="Advanced-Development-Concepts.md"/>
+        <toc-element level="Expert" topic="Expert-Development-Concepts.md"/>
+    </toc-element>
+
+    <!-- Design Patterns -->
+    <toc-element topic="Design-Patterns.md">
+        <toc-element level="Basic" topic="Basic-Design-Patterns.md"/>
+        <toc-element level="Novice" topic="Novice-Design-Patterns.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Design-Patterns.md"/>
+        <toc-element level="Advanced" topic="Advanced-Design-Patterns.md"/>
+        <toc-element level="Expert" topic="Expert-Design-Patterns.md"/>
+    </toc-element>
+
+    <!-- Programming Paradigms -->
+    <toc-element topic="Programming-Paradigms.md">
+        <toc-element level="Basic" topic="Basic-Programming-Paradigms.md"/>
+        <toc-element level="Novice" topic="Novice-Programming-Paradigms.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Programming-Paradigms.md"/>
+        <toc-element level="Advanced" topic="Advanced-Programming-Paradigms.md"/>
+        <toc-element level="Expert" topic="Expert-Programming-Paradigms.md"/>
+    </toc-element>
+
+    <!-- Code Best Practices -->
+    <toc-element topic="Code-Best-Practices.md">
+        <toc-element level="Basic" topic="Basic-Code-best-practices.md"/>
+        <toc-element level="Novice" topic="Novice-Code-best-practices.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Code-best-practices.md"/>
+        <toc-element level="Advanced" topic="Advanced-Code-best-practices.md"/>
+        <toc-element level="Expert" topic="Expert-Code-best-practices.md"/>
+    </toc-element>
+
+    <!-- Reproducible Development -->
+    <toc-element topic="Reproducible-Development.md">
+        <toc-element level="Basic" topic="Basic-Reproducible-Development.md"/>
+        <toc-element level="Novice" topic="Novice-Reproducible-Development.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Reproducible-Development.md"/>
+        <toc-element level="Advanced" topic="Advanced-Reproducible-Development.md"/>
+        <toc-element level="Expert" topic="Expert-Reproducible-Development.md"/>
+    </toc-element>
+
+    <!-- Software Architecture Scale -->
+    <toc-element topic="Software-Architecture-Scale.md">
+        <toc-element level="Basic" topic="Basic-Software-Architecture-Scale.md"/>
+        <toc-element level="Novice" topic="Novice-Software-Architecture-Scale.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Software-Architecture-Scale.md"/>
+        <toc-element level="Advanced" topic="Advanced-Software-Architecture-Scale.md"/>
+        <toc-element level="Expert" topic="Expert-Software-Architecture-Scale.md"/>
+    </toc-element>
+
+    <!-- Project Management and Collaboration -->
+    <toc-element topic="Project-Management-and-Collaboration.md">
+        <toc-element level="Basic" topic="Basic-Project-management-and-collaboration.md"/>
+        <toc-element level="Novice" topic="Novice-Project-management-and-collaboration.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Project-management-and-collaboration.md"/>
+        <toc-element level="Advanced" topic="Advanced-Project-management-and-collaboration.md"/>
+        <toc-element level="Expert" topic="Expert-Project-management-and-collaboration.md"/>
+    </toc-element>
+
+    <!-- IDE - Your Digital Workbench -->
+    <toc-element topic="IDE-Your-Digital-Workbench.md">
+        <toc-element level="Basic" topic="Basic-IDE-Your-Digital-Workbench.md"/>
+        <toc-element level="Novice" topic="Novice-IDE-Your-Digital-Workbench.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-IDE-Your-Digital-Workbench.md"/>
+    </toc-element>
+
+    <!-- Common Memory Structures -->
+    <toc-element topic="Common-Memory-Structures.md">
+        <toc-element level="Basic" topic="Basic-Common-Memory-Structures.md"/>
+        <toc-element level="Novice" topic="Novice-Common-Memory-Structures.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Common-Memory-Structures.md"/>
+        <toc-element level="Advanced" topic="Advanced-Common-Memory-Structures.md"/>
+        <toc-element level="Expert" topic="Expert-Common-Memory-Structures.md"/>
+    </toc-element>
+
+    <!-- Common Data Structures and Interfaces -->
+    <toc-element topic="Common-Data-Structures-and-Interfaces.md">
+        <toc-element level="Basic" topic="Basic-Common-Data-Structures-and-Interfaces.md"/>
+        <toc-element level="Novice" topic="Novice-Common-Data-Structures-and-Interfaces.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Common-Data-Structures-and-Interfaces.md"/>
+    </toc-element>
+
+    <!-- Raw Data Persistent Storage -->
+    <toc-element topic="Raw-Data-Persistent-Storage.md">
+        <toc-element level="Basic" topic="Basic-Raw-Data-Persistent-Storage.md"/>
+        <toc-element level="Novice" topic="Novice-Raw-Data-Persistent-Storage.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Raw-Data-Persistent-Storage.md"/>
+        <toc-element level="Advanced" topic="Advanced-Raw-Data-Persistent-Storage.md"/>
+        <toc-element level="Expert" topic="Expert-Raw-Data-Persistent-Storage.md"/>
+    </toc-element>
+
+    <!-- Inter-Process Communication -->
+    <toc-element topic="Inter-Process-Communication.md">
+        <toc-element level="Basic" topic="Basic-Inter-Process-Communication.md"/>
+        <toc-element level="Novice" topic="Novice-Inter-Process-Communication.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Inter-Process-Communication.md"/>
+        <toc-element level="Advanced" topic="Advanced-Inter-Process-Communication.md"/>
+        <toc-element level="Expert" topic="Expert-Inter-Process-Communication.md"/>
+    </toc-element>
+
+    <!-- Protocols and Standards -->
+    <toc-element topic="Protocols-and-Standards.md">
+        <toc-element level="Basic" topic="Basic-Protocols-and-Standards.md"/>
+        <toc-element level="Novice" topic="Novice-Protocols-and-Standards.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Protocols-and-Standards.md"/>
+        <toc-element level="Advanced" topic="Advanced-Protocols-and-Standards.md"/>
+    </toc-element>
+
+    <!-- Networking -->
+    <toc-element topic="Networking.md">
+        <toc-element level="Basic" topic="Basic-Networking.md"/>
+        <toc-element level="Novice" topic="Novice-Networking.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Networking.md"/>
+        <toc-element level="Advanced" topic="Advanced-Networking.md"/>
+    </toc-element>
+
+    <!-- Version Control -->
+    <toc-element topic="Version-Control.md">
+        <toc-element level="Basic" topic="Basic-Version-Control.md"/>
+        <toc-element level="Novice" topic="Novice-Version-Control.md"/>
+        <toc-element level="Intermediate" topic="Intermediate-Version-Control.md"/>
+        <toc-element level="Advanced" topic="Advanced-Version-Control.md"/>
+    </toc-element>
+
+    <toc-element topic="Sustainability-and-Ethical-Considerations.md">
+        <toc-element topic="Basic-Sustainability-and-Ethical-Considerations.md">
         </toc-element>
-        <toc-element topic="Basic-Hardware.md"/>
-        <toc-element topic="Basic-Linux.md"/>
-        <toc-element topic="Basic-Virtual-Machines.md"/>
-        <toc-element topic="Basic-Containerization.md"/>
-        <toc-element topic="Basic-Orchestration.md"/>
-        <toc-element topic="Basic-Development-Concepts.md"/>
-        <toc-element topic="Basic-Design-Patterns.md"/>
-        <toc-element topic="Basic-Programming-Paradigms.md"/>
-        <toc-element topic="Basic-Code-best-practices.md"/>
-        <toc-element topic="Basic-Reproducible-Development.md"/>
-        <toc-element topic="Basic-Software-Architecture-Scale.md"/>
-        <toc-element topic="Basic-Project-management-and-collaboration.md"/>
-        <toc-element topic="Basic-IDE-Your-Digital-Workbench.md"/>
-        <toc-element topic="Basic-Common-Memory-Structures.md"/>
-        <toc-element topic="Basic-Common-Data-Structures-and-Interfaces.md"/>
-        <toc-element topic="Basic-Raw-Data-Persistent-Storage.md"/>
-        <toc-element topic="Basic-Inter-Process-Communication.md"/>
-        <toc-element topic="Basic-Protocols-and-Standards.md"/>
-        <toc-element topic="Basic-Networking.md"/>
-        <toc-element topic="Basic-Version-Control.md"/>
-    </toc-element>
-    <toc-element topic="Novice.md">
-        <toc-element topic="Novice-Thinking.md"/>
-        <toc-element topic="Novice-Learning.md"/>
-        <toc-element topic="Novice-Hardware.md"/>
-        <toc-element topic="Novice-Linux.md"/>
-        <toc-element topic="Novice-Virtual-Machines.md"/>
-        <toc-element topic="Novice-Orchestration.md"/>
-        <toc-element topic="Novice-Development-Concepts.md"/>
-        <toc-element topic="Novice-Design-Patterns.md"/>
-        <toc-element topic="Novice-Programming-Paradigms.md"/>
-        <toc-element topic="Novice-Code-best-practices.md"/>
-        <toc-element topic="Novice-Reproducible-Development.md"/>
-        <toc-element topic="Novice-Software-Architecture-Scale.md"/>
-        <toc-element topic="Novice-Project-management-and-collaboration.md"/>
-        <toc-element topic="Novice-IDE-Your-Digital-Workbench.md"/>
-        <toc-element topic="Novice-Common-Memory-Structures.md"/>
-        <toc-element topic="Novice-Common-Data-Structures-and-Interfaces.md"/>
-        <toc-element topic="Novice-Raw-Data-Persistent-Storage.md"/>
-        <toc-element topic="Novice-Inter-Process-Communication.md"/>
-        <toc-element topic="Novice-Protocols-and-Standards.md"/>
-        <toc-element topic="Novice-Networking.md"/>
-        <toc-element topic="Novice-Version-Control.md"/>
-    </toc-element>
-    <toc-element topic="Intermediate.md">
-        <toc-element topic="Intermediate-Thinking.md"/>
-        <toc-element topic="Intermediate-Learning.md"/>
-        <toc-element topic="Intermediate-Hardware.md"/>
-        <toc-element topic="Intermediate-Linux.md"/>
-        <toc-element topic="Intermediate-Virtual-Machines.md"/>
-        <toc-element topic="Intermediate-Orchestration.md"/>
-        <toc-element topic="Intermediate-Development-Concepts.md"/>
-        <toc-element topic="Intermediate-Design-Patterns.md"/>
-        <toc-element topic="Intermediate-Programming-Paradigms.md"/>
-        <toc-element topic="Intermediate-Code-best-practices.md"/>
-        <toc-element topic="Intermediate-Reproducible-Development.md"/>
-        <toc-element topic="Intermediate-Software-Architecture-Scale.md"/>
-        <toc-element topic="Intermediate-Project-management-and-collaboration.md"/>
-        <toc-element topic="Intermediate-IDE-Your-Digital-Workbench.md"/>
-        <toc-element topic="Intermediate-Common-Memory-Structures.md"/>
-        <toc-element topic="Intermediate-Common-Data-Structures-and-Interfaces.md"/>
-        <toc-element topic="Intermediate-Raw-Data-Persistent-Storage.md"/>
-        <toc-element topic="Intermediate-Inter-Process-Communication.md"/>
-        <toc-element topic="Intermediate-Protocols-and-Standards.md"/>
-        <toc-element topic="Intermediate-Networking.md"/>
-        <toc-element topic="Intermediate-Version-Control.md"/>
-    </toc-element>
-    <toc-element topic="Advanced.md">
-        <toc-element topic="Advanced-Thinking.md"/>
-        <toc-element topic="Advanced-Hardware.md"/>
-        <toc-element topic="Advanced-Linux.md"/>
-        <toc-element topic="Advanced-Orchestration.md"/>
-        <toc-element topic="Advanced-Development-Concepts.md"/>
-        <toc-element topic="Advanced-Design-Patterns.md"/>
-        <toc-element topic="Advanced-Programming-Paradigms.md"/>
-        <toc-element topic="Advanced-Code-best-practices.md"/>
-        <toc-element topic="Advanced-Reproducible-Development.md"/>
-        <toc-element topic="Advanced-Software-Architecture-Scale.md"/>
-        <toc-element topic="Advanced-Project-management-and-collaboration.md"/>
-        <toc-element topic="Advanced-Common-Memory-Structures.md"/>
-        <toc-element topic="Advanced-Raw-Data-Persistent-Storage.md"/>
-        <toc-element topic="Advanced-Inter-Process-Communication.md"/>
-        <toc-element topic="Advanced-Protocols-and-Standards.md"/>
-        <toc-element topic="Advanced-Networking.md"/>
-        <toc-element topic="Advanced-Version-Control.md"/>
-    </toc-element>
-    <toc-element topic="Expert.md">
-        <toc-element topic="Expert-Orchestration.md"/>
-        <toc-element topic="Expert-Linux.md"/>
-        <toc-element topic="Expert-Development-Concepts.md"/>
-        <toc-element topic="Expert-Design-Patterns.md"/>
-        <toc-element topic="Expert-Programming-Paradigms.md"/>
-        <toc-element topic="Expert-Code-best-practices.md"/>
-        <toc-element topic="Expert-Reproducible-Development.md"/>
-        <toc-element topic="Expert-Software-Architecture-Scale.md"/>
-        <toc-element topic="Expert-Project-management-and-collaboration.md"/>
-        <toc-element topic="Expert-Common-Memory-Structures.md"/>
-        <toc-element topic="Expert-Raw-Data-Persistent-Storage.md"/>
-        <toc-element topic="Expert-Inter-Process-Communication.md"/>
-    </toc-element>
-    <toc-element topic="Default-topic.md">
+        <toc-element topic="Novice-Sustainability-and-Ethical-Considerations.md"/>
+        <toc-element topic="Intermediate-Sustainability-and-Ethical-Considerations.md"/>
+        <toc-element topic="Advanced-Sustainability-and-Ethical-Considerations.md"/>
+        <toc-element topic="Expert-Sustainability-and-Ethical-Considerations.md"/>
     </toc-element>
 </instance-profile>

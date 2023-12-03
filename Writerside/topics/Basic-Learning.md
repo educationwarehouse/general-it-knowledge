@@ -1,5 +1,5 @@
 # Basic Learning
-
+<--
   * Learn how to learn
     * ask questions
       * What is it exactly that i'm looking for? 
@@ -19,3 +19,4 @@
       * Discussion
       * API documentation
       * Q&A, FAQs
+--/>
