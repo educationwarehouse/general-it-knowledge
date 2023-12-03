@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE instance-profile
-        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
-
-<instance-profile id="hi"
-                 name="Help Instance"
-                 start-page="index.md">
+<instance-profile id="hi" name="Help Instance" start-page="index.md">
 
     <toc-element topic="index.md"/>
     <toc-element topic="Where-are-you-at.md"/>
@@ -21,6 +15,11 @@
         <toc-element topic="Basic-Orchestration.md"/>
         <toc-element topic="Basic-Development-Concepts.md"/>
         <toc-element topic="Basic-Design-Patterns.md"/>
+        <toc-element topic="Basic-Programming-Paradigms.md"/>
+        <toc-element topic="Basic-Code-best-practices.md"/>
+        <toc-element topic="Basic-Reproducible-Development.md"/>
+        <toc-element topic="Basic-Software-Architecture-Scale.md"/>
+        <toc-element topic="Basic-Project-management-and-collaboration.md"/>
     </toc-element>
     <toc-element topic="Novice.md">
         <toc-element topic="Novice-Thinking.md"/>
@@ -31,6 +30,11 @@
         <toc-element topic="Novice-Orchestration.md"/>
         <toc-element topic="Novice-Development-Concepts.md"/>
         <toc-element topic="Novice-Design-Patterns.md"/>
+        <toc-element topic="Novice-Programming-Paradigms.md"/>
+        <toc-element topic="Novice-Code-best-practices.md"/>
+        <toc-element topic="Novice-Reproducible-Development.md"/>
+        <toc-element topic="Novice-Software-Architecture-Scale.md"/>
+        <toc-element topic="Novice-Project-management-and-collaboration.md"/>
     </toc-element>
     <toc-element topic="Intermediate.md">
         <toc-element topic="Intermediate-Thinking.md"/>
@@ -41,6 +45,11 @@
         <toc-element topic="Intermediate-Orchestration.md"/>
         <toc-element topic="Intermediate-Development-Concepts.md"/>
         <toc-element topic="Intermediate-Design-Patterns.md"/>
+        <toc-element topic="Intermediate-Programming-Paradigms.md"/>
+        <toc-element topic="Intermediate-Code-best-practices.md"/>
+        <toc-element topic="Intermediate-Reproducible-Development.md"/>
+        <toc-element topic="Intermediate-Software-Architecture-Scale.md"/>
+        <toc-element topic="Intermediate-Project-management-and-collaboration.md"/>
     </toc-element>
     <toc-element topic="Advanced.md">
         <toc-element topic="Advanced-Thinking.md"/>
@@ -49,12 +58,22 @@
         <toc-element topic="Advanced-Orchestration.md"/>
         <toc-element topic="Advanced-Development-Concepts.md"/>
         <toc-element topic="Advanced-Design-Patterns.md"/>
+        <toc-element topic="Advanced-Programming-Paradigms.md"/>
+        <toc-element topic="Advanced-Code-best-practices.md"/>
+        <toc-element topic="Advanced-Reproducible-Development.md"/>
+        <toc-element topic="Advanced-Software-Architecture-Scale.md"/>
+        <toc-element topic="Advanced-Project-management-and-collaboration.md"/>
     </toc-element>
     <toc-element topic="Expert.md">
         <toc-element topic="Expert-Orchestration.md"/>
         <toc-element topic="Expert-Linux.md"/>
         <toc-element topic="Expert-Development-Concepts.md"/>
         <toc-element topic="Expert-Design-Patterns.md"/>
+        <toc-element topic="Expert-Programming-Paradigms.md"/>
+        <toc-element topic="Expert-Code-best-practices.md"/>
+        <toc-element topic="Expert-Reproducible-Development.md"/>
+        <toc-element topic="Expert-Software-Architecture-Scale.md"/>
+        <toc-element topic="Expert-Project-management-and-collaboration.md"/>
     </toc-element>
     <toc-element topic="Default-topic.md">
     </toc-element>

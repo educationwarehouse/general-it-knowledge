@@ -201,7 +201,7 @@ In Python software development, several design patterns are commonly used to sol
   * **Bridge Pattern**: Separates an object’s abstraction from its implementation so that the two can vary independently.
   * **Composite Pattern**: Composes objects into tree structures to represent part-whole hierarchies. It allows clients to treat individual objects and compositions of objects uniformly.****
 
-#### Programming Paradigms:
+#### ✓ Programming Paradigms:
   * Imperative
   * Declarative
   * Functional
@@ -215,7 +215,7 @@ In Python software development, several design patterns are commonly used to sol
   * Reactive
   * Data-driven
 
-#### Code best practices:
+#### ✓ Code best practices:
   * Code readability
   * Code reusability
   * Code maintainability
@@ -223,10 +223,18 @@ In Python software development, several design patterns are commonly used to sol
   * Code smells 
   * Code refactoring
   * Code review
+  * Code documentation
+  * Code comments
+  * Code style
+  * Code linting
+  * Code formatting
+  * Code profiling
+  * Code coverage
 
-#### Reproducible development
-  * Version control
-  * Virtual environments
+#### ✓ Reproducible development
+  * development vs production environments 
+  * Version control with semantic versioning
+  * Virtual environments for dependency management
   * Containerization
   * Infrastructure as code
   * Configuration management
@@ -234,8 +242,12 @@ In Python software development, several design patterns are commonly used to sol
   * Continuous delivery
   * Continuous deployment
   * DevOps 
+  * CI/CD pipelines
+  * Testing
+  * Monitoring
+  * Logging
 
-#### Different scales withing software architecture 
+#### ✓ Software Architecture Scale 
   * Monoliths
   * Services Oriented AArchitecture 
   * Microservices
@@ -244,7 +256,7 @@ In Python software development, several design patterns are commonly used to sol
   * Command Query Responsibility Segregation (CQRS)
   * Event Sourcing
 
-#### Project management and collaboration
+#### ✓ Project management and collaboration
   * SCRUM and Agile vs Waterfall 
   * Epics, User stories, and Tasks
   * Issues vs Changes 
@@ -253,18 +265,20 @@ In Python software development, several design patterns are commonly used to sol
     * Gitlab
     * Taiga
 
-#### Learn your IDE 
+#### Your IDE is your workbench
   * IDEs
     * PyCharm (get the student license for the PRO version, highly recommended)
     * VS Code (free, construct your own flavor)
     * Vim (free. For the tough folks)
     * JupyterLab (free, webbased datascience oriented)
   * Plugins
+  * Smart code navigation 
   * Shortcuts/keybindings
   * Quick selections
   * Artificial intelligence
   * Refactoring tools
   * Debugging tools
+  * Testing tools 
   * Code completion
   * Code snippets
   * Code formatting
@@ -274,7 +288,27 @@ In Python software development, several design patterns are commonly used to sol
   * Importing and exporting data
   * Version control
   * Regular expressions
-  * Multicursor edits
+  * Multi-cursor edits
+  * Resolving merge conflicts
+  * Remote development
+  * Remote debugging 
+  * Live edit 
+  * Code with me 
+  * REPLs
+  * Jupyter notebook integration
+  * Scientific Stack Support
+  * Web development support
+  * Code formatting 
+  * Code completion
+  * Instant access to documentation
+  * Documentation generation
+  * Duplicate code detector 
+  * Quick-fixes using alt-enter 
+  * Search-everywhere 
+  * Regex support
+  * Goto file/class/symbol
+  * Goto declaration
+  * Find usages
 
 #### Common memory structures:
   * Stack
