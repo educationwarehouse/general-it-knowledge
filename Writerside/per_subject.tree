@@ -1,4 +1,4 @@
-<instance-profile id="hi" name="Help Instance" start-page="index.md">
+<instance-profile id="per_subject" name="Subject oriented" start-page="index.md">
 
     <toc-element topic="index.md"/>
     <toc-element topic="Where-are-you-at.md"/>
