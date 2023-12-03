@@ -3,13 +3,18 @@
     <toc-element topic="index.md"/>
     <toc-element topic="Where-are-you-at.md"/>
     <toc-element topic="ToC-by-level.md"/>
+    <toc-element topic="Hardware.md">
+        <toc-element topic="Basic-Hardware.md"/>
+        <toc-element topic="Novice-Hardware.md"/>
+        <toc-element topic="Intermediate-Hardware.md"/>
+        <toc-element topic="Advanced-Hardware.md"/>
+    </toc-element>
     <toc-element topic="Basic.md">
         <toc-element topic="Basic-Thinking.md"/>
         <toc-element topic="Basic-Learning.md">
         </toc-element>
         <toc-element topic="Basic-Hardware.md"/>
         <toc-element topic="Basic-Linux.md"/>
-        <toc-element topic="Basic-Networking.md"/>
         <toc-element topic="Basic-Virtual-Machines.md"/>
         <toc-element topic="Basic-Containerization.md"/>
         <toc-element topic="Basic-Orchestration.md"/>
