@@ -7,70 +7,53 @@ import xml.etree.ElementTree as ET
 
 # Input data (replace this with your data)
 input_data = {
-  "IDE: Your Digital Workbench": {
-    "Basic": [
-      "IDEs",
-      "Plugins",
-      "Smart code navigation",
-      "Shortcuts/keybindings",
-      "Code snippets",
-      "Code formatting",
-      "Code completion",
-      "Code formatting",
-      "Code completion",
-      "Integrating external tools",
-      "Database management",
-      "Data manipulation",
-      "Importing and exporting data",
-      "Version control",
-      "Regular expressions",
-      "Multi-cursor edits",
-      "Resolving merge conflicts"
-    ],
-    "Novice": [
-      "PyCharm (get the student license for the PRO version, highly recommended)",
-      "VS Code (free, construct your own flavor)",
-      "Vim (free. For the tough folks)",
-      "JupyterLab (free, web-based data science-oriented)",
-      "Quick selections",
-      "Artificial intelligence",
-      "Refactoring tools",
-      "Debugging tools",
-      "Testing tools",
-      "Code snippets",
-      "Code formatting",
-      "Integrating external tools",
-      "Database management",
-      "Data manipulation",
-      "Importing and exporting data",
-      "Version control",
-      "Regular expressions",
-      "Multi-cursor edits",
-      "Resolving merge conflicts"
-    ],
-    "Intermediate": [
-      "Remote development",
-      "Remote debugging",
-      "Live edit",
-      "Code with me",
-      "REPLs",
-      "Jupyter notebook integration",
-      "Scientific Stack Support",
-      "Web development support",
-      "Code formatting",
-      "Code completion",
-      "Instant access to documentation",
-      "Documentation generation",
-      "Duplicate code detector",
-      "Quick-fixes using alt-enter",
-      "Search-everywhere",
-      "Regex support",
-      "Goto file/class/symbol",
-      "Goto declaration",
-      "Find usages"
-    ]
-  }
+    "Version Control": {
+        "Basic": [
+            "Git, Mercurial, and SVN",
+            "GitHub",
+            "GitLab",
+            "Bitbucket",
+            "Semantic versioning (SEMVER)",
+            "Branching strategies",
+        ],
+        "Novice": [
+            "Conventional commits",
+            "Best practise: Commit messages",
+            "Best practise: Branching",
+            "Best practise: Merging"
+        ],
+        "Intermediate": [
+            "Git hooks",
+            "Change logs and release notes",
+            "Automating versioning and changelogs using Semantic release",
+            "Naming conventions",
+            "Trunk-based development",
+            "Feature branching",
+            "Release branching",
+            "Hotfix branching",
+            "Best practise: Rebasing",
+            "Best practise: Cherry-picking",
+            "Best practise: Resetting",
+            "Best practise: Stashing"
+        ],
+        "Advanced": [
+            "Best practise: Amending",
+            "Best practise: Reflogs",
+            "Best practise: Bisecting",
+            "Best practise: Squashing",
+            "Best practise: Tagging",
+            "Best practise: Submodules",
+            "Best practise: Subtrees",
+            "Best practise: Worktrees",
+            "Best practise: GPG signing",
+            "Best practise: Git aliases",
+            "Best practise: Git configuration"
+        ]
+    }
 }
+
+
+
 
 
 
@@ -101,13 +84,16 @@ for topic, levels in input_data.items():
         base_filename = f"{level_slug}-{topic_slug}.md"
         mdfile_filename = os.path.join(output_dir, base_filename)
         mdfile = pathlib.Path(mdfile_filename)
+        if level_element is not None:
+            toc_element = ET.Element("toc-element", topic=base_filename)
+            level_element.append(toc_element)
+        else:
+            raise Exception('ERROR: Could not find element for ' + level)
         if mdfile.exists():
             print(f"File {mdfile_filename} already exists")
             continue
         with mdfile.open("w") as file:
-            if level_element is not None:
-                toc_element = ET.Element("toc-element", topic=base_filename)
-                level_element.append(toc_element)
+
             # Write the title
             file.write(f"# {level} {topic}\n\n")
 

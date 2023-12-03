@@ -265,7 +265,7 @@ In Python software development, several design patterns are commonly used to sol
     * Gitlab
     * Taiga
 
-#### Your IDE is your workbench
+#### ✓ Your IDE is your workbench
   * IDEs
     * PyCharm (get the student license for the PRO version, highly recommended)
     * VS Code (free, construct your own flavor)
@@ -310,7 +310,7 @@ In Python software development, several design patterns are commonly used to sol
   * Goto declaration
   * Find usages
 
-#### Common memory structures:
+#### ✓ Common memory structures:
   * Stack
   * Heap
   * Queue
@@ -325,22 +325,32 @@ In Python software development, several design patterns are commonly used to sol
   * Network
   * Cloud
 
-#### Common data structures:
-  * Array
+#### ✓ Common data structures and interfaces
+  * Integers, Floats, and Complex numbers
   * List
   * Tuple
   * Set
   * Dictionary and Hash-table
-  * String
   * Binary and String
   * Tree
   * Graph
   * Cache (LRU, MRU, LFU, MFU, RR, ...)
   * Streams (stdin, stdout, stderr)
   * File handles (file, socket, pipe, ...)
+  * Structured files (JSON, XML, YAML, CSV, ...)
+  * Relational databases (SQL)
+  * Document databases (NoSQL)
+  * Unstructured data (text, images, audio, video, ...)
+  * Key-value stores (Redis, Memcached, ...)
+  * Time series databases (InfluxDB, Prometheus, ...)
+  * Indexed databases (Elasticsearch, Solr, ...)
+  * Indexes (B-tree, R-tree, ...)
+  * Serialization (pickle, dill, JSON, XML, YAML, ...)
 
-#### Data persistence:
+#### ✓ Raw Data persistent storage:
   * Filesystem
+  * Disk
+  * Tape
   * Database
   * Cache
   * Network
@@ -361,7 +371,7 @@ In Python software development, several design patterns are commonly used to sol
     * Heroku
     * Netlify
 
-#### Common inter process communication (IPC) methods:
+#### ✓ Common inter process communication (IPC) methods:
   * Sync and Async revisited
   * Files
   * The primitives: 
@@ -382,7 +392,7 @@ In Python software development, several design patterns are commonly used to sol
   * Databases: postgres  
   * Lib: Diskcache using sqlite
 
-### Protocols and Standards:
+### ✓ Protocols and Standards:
   * UUID (RFC 4122)
   * URI, URL, and URN (RFC 3986)
   * IP (RFC 791)
@@ -408,7 +418,7 @@ In Python software development, several design patterns are commonly used to sol
   * MQTT (RFC 9431)
   * Posix regular expressions
 
-## Hardware components and concepts:
+## ✓ Hardware components and concepts:
   * CPU (cores, threads, cache, clock speed, vendors, architectures, etc.)
   * Volatile RAM (types, clock speed, latency, etc.)
   * Motherboard (Bus, architecture)
@@ -444,16 +454,12 @@ In Python software development, several design patterns are commonly used to sol
       * iOS
   * and tons of others
 
-## Networking:
+## ✓ Networking:
   * OSI model
   * TCP/IP
   * IPv4 and IPv6
   * DNS
   * DHCP
-  * PAT/NAT
-  * Routing
-  * Subnetting
-  * Firewalls
   * (SSH) Tunneling
   * VPN
   * Proxy
@@ -461,6 +467,10 @@ In Python software development, several design patterns are commonly used to sol
   * Load balancing
   * HTTP and HTTPS
   * WebSockets
+  * PAT/NAT
+  * Routing
+  * Subnetting
+  * Firewalls
   * WebRTC
 
 ## Security:
@@ -476,23 +486,42 @@ In Python software development, several design patterns are commonly used to sol
   * 2FA and MFA
   * Security best practices
 
-## Version Control:
+## ✓ Version Control:
   * Git, Mercurial, and SVN
     * GitHub
     * GitLab
     * Bitbucket
-    * GitFlow
   * Semantic versioning (SEMVER)
   * Conventional commits
     * Commit messages
     * Change logs and release notes
     * Automating versioning and changelogs using [Semantic release](https://github.com/semantic-release/semantic-release)
-
-## Text Editors and IDEs:
-  * Vim
-  * VS Code
-  * PyCharm
-  * JupyterLab
+  * Branching strategies
+    * Naming conventions 
+    * Trunk-based development
+    * Feature branching
+    * Release branching
+    * Hotfix branching
+  * Git hooks
+  * Git best practices
+    *  Best practise: Commit messages
+    *  Best practise: Branching
+    *  Best practise: Merging
+    *  Best practise: Rebasing
+    *  Best practise: Cherry-picking
+    *  Best practise: Resetting
+    *  Best practise: Stashing
+    *  Best practise: Amending
+    *  Best practise: Reflogs
+    *  Best practise: Bisecting
+    *  Best practise: Squashing
+    *  Best practise: Tagging
+    *  Best practise: Submodules
+    *  Best practise: Subtrees
+    *  Best practise: Worktrees
+    *  Best practise: GPG signing
+    *  Best practise: Git aliases
+    *  Best practise: Git configuration
 
 ## Python Programming:
   * Python (3) syntax

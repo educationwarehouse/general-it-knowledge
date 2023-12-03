@@ -20,6 +20,14 @@
         <toc-element topic="Basic-Reproducible-Development.md"/>
         <toc-element topic="Basic-Software-Architecture-Scale.md"/>
         <toc-element topic="Basic-Project-management-and-collaboration.md"/>
+        <toc-element topic="Basic-IDE-Your-Digital-Workbench.md"/>
+        <toc-element topic="Basic-Common-Memory-Structures.md"/>
+        <toc-element topic="Basic-Common-Data-Structures-and-Interfaces.md"/>
+        <toc-element topic="Basic-Raw-Data-Persistent-Storage.md"/>
+        <toc-element topic="Basic-Inter-Process-Communication.md"/>
+        <toc-element topic="Basic-Protocols-and-Standards.md"/>
+        <toc-element topic="Basic-Networking.md"/>
+        <toc-element topic="Basic-Version-Control.md"/>
     </toc-element>
     <toc-element topic="Novice.md">
         <toc-element topic="Novice-Thinking.md"/>
@@ -35,6 +43,14 @@
         <toc-element topic="Novice-Reproducible-Development.md"/>
         <toc-element topic="Novice-Software-Architecture-Scale.md"/>
         <toc-element topic="Novice-Project-management-and-collaboration.md"/>
+        <toc-element topic="Novice-IDE-Your-Digital-Workbench.md"/>
+        <toc-element topic="Novice-Common-Memory-Structures.md"/>
+        <toc-element topic="Novice-Common-Data-Structures-and-Interfaces.md"/>
+        <toc-element topic="Novice-Raw-Data-Persistent-Storage.md"/>
+        <toc-element topic="Novice-Inter-Process-Communication.md"/>
+        <toc-element topic="Novice-Protocols-and-Standards.md"/>
+        <toc-element topic="Novice-Networking.md"/>
+        <toc-element topic="Novice-Version-Control.md"/>
     </toc-element>
     <toc-element topic="Intermediate.md">
         <toc-element topic="Intermediate-Thinking.md"/>
@@ -50,6 +66,14 @@
         <toc-element topic="Intermediate-Reproducible-Development.md"/>
         <toc-element topic="Intermediate-Software-Architecture-Scale.md"/>
         <toc-element topic="Intermediate-Project-management-and-collaboration.md"/>
+        <toc-element topic="Intermediate-IDE-Your-Digital-Workbench.md"/>
+        <toc-element topic="Intermediate-Common-Memory-Structures.md"/>
+        <toc-element topic="Intermediate-Common-Data-Structures-and-Interfaces.md"/>
+        <toc-element topic="Intermediate-Raw-Data-Persistent-Storage.md"/>
+        <toc-element topic="Intermediate-Inter-Process-Communication.md"/>
+        <toc-element topic="Intermediate-Protocols-and-Standards.md"/>
+        <toc-element topic="Intermediate-Networking.md"/>
+        <toc-element topic="Intermediate-Version-Control.md"/>
     </toc-element>
     <toc-element topic="Advanced.md">
         <toc-element topic="Advanced-Thinking.md"/>
@@ -63,6 +87,12 @@
         <toc-element topic="Advanced-Reproducible-Development.md"/>
         <toc-element topic="Advanced-Software-Architecture-Scale.md"/>
         <toc-element topic="Advanced-Project-management-and-collaboration.md"/>
+        <toc-element topic="Advanced-Common-Memory-Structures.md"/>
+        <toc-element topic="Advanced-Raw-Data-Persistent-Storage.md"/>
+        <toc-element topic="Advanced-Inter-Process-Communication.md"/>
+        <toc-element topic="Advanced-Protocols-and-Standards.md"/>
+        <toc-element topic="Advanced-Networking.md"/>
+        <toc-element topic="Advanced-Version-Control.md"/>
     </toc-element>
     <toc-element topic="Expert.md">
         <toc-element topic="Expert-Orchestration.md"/>
@@ -74,6 +104,9 @@
         <toc-element topic="Expert-Reproducible-Development.md"/>
         <toc-element topic="Expert-Software-Architecture-Scale.md"/>
         <toc-element topic="Expert-Project-management-and-collaboration.md"/>
+        <toc-element topic="Expert-Common-Memory-Structures.md"/>
+        <toc-element topic="Expert-Raw-Data-Persistent-Storage.md"/>
+        <toc-element topic="Expert-Inter-Process-Communication.md"/>
     </toc-element>
     <toc-element topic="Default-topic.md">
     </toc-element>
