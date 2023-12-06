@@ -1,5 +1,6 @@
 # Intermediate Linux
 
+- Common ways to send arguments and options
 
 * Starting and stopping applications (./, &, fg, bg, jobs, kill, $PATH, ...)
 * Common ways to send arguments and options

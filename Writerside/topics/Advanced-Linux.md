@@ -1,7 +1,5 @@
 # Advanced Linux
 
-- Common ways to send arguments and options
-- Aliases and functions
 - Using the shell interactively and non-interactively
 * Using the shell for local system administration
     * Filename Globbing (wildcards))
